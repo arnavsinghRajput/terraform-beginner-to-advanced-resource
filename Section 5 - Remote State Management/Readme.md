@@ -1,6 +1,6 @@
 # Domain - Remote State Management
 
-The code mentioned in this document are used in the HashiCorp Certified Terraform Associate 2022 video course.
+The code mentioned in this document are used in the HashiCorp Certified Terraform Associate 2023 video course.
 
 
 ### Video-Document Mapper
@@ -17,7 +17,7 @@ The code mentioned in this document are used in the HashiCorp Certified Terrafor
 | 7 | [Integrating DynamoDB with S3 for state locking][PlDg] |
 | 8 | [Terraform State Management][PlDh] | |
 | 9 | [Cross- Project Collaboration using Remote State][PlDi]
-| 10 | [Importing Existing Resources with Terraform Import][PlDj]
+| 10 | [Terraform Import Practical][PlDj]
 
 
    [PlDa]: <./git-integration.md>   

@@ -1,14 +1,14 @@
 # Domain 4 - Read, Generate, Modify Configurations
 
-The code mentioned in this document are used in the HashiCorp Certified Terraform Associate 2022 video course.
+The code mentioned in this document are used in the HashiCorp Certified Terraform Associate 2023 video course.
 
 
 # Video-Document Mapper
 
 | Sr No | Document Link |
 | ------ | ------ |
-| 1 | [Understanding Attributes and Output Values in Terraform][PlDa] |
-| 2 | [Referencing Cross-Account Resource Attributes][PlDb] |
+| 1 | [Cross Reference Resource Attributes Practical][PlDa] |
+| 2 | [Output Values][PlDb] |
 | 3 | [Terraform Variables][PlDc] |
 | 4 | [Approaches for Variable Assignment][PlDd] |
 | 5 | [Data Types for Variables][PlDe] |
@@ -31,11 +31,15 @@ The code mentioned in this document are used in the HashiCorp Certified Terrafor
 | 22 | [Fetching Data for Maps and List in Variable][PlDv] |
 | 23 | [Zipmap Function][PlDw] |
 | 24 | [Comments in Terraform][PlDx] |
-| 25 | [Challenges with Count][PlDy] |
-| 26 | [for_each in Terraform][PlDz] |
+| 25 | [Resource Behavior and Meta Arguments][PlDy] |
+| 26 | [LifeCycle Meta-Argument - Create Before Destroy][PlDz] |
+| 27 | [LifeCycle Meta-Argument - Prevent Destroy][PlEa] |
+| 28 | [LifeCycle Meta-Argument - Ignore Changes][PlEb] |
+| 29 | [Challenges with Count][PlEc] |
+| 30 | [for_each in Terraform][PlEd] |
 
-[PlDa]: <./attributes.tf>
-[PlDb]: <./reference.md>
+[PlDa]: <./cross-reference-attributes.md>
+[PlDb]: <./output-values.md>
 [PlDc]: <./terraform-variables.md>
 [PlDd]: <./variable-assignment.md>
 [PlDe]: <./data-types.md>
@@ -58,5 +62,9 @@ The code mentioned in this document are used in the HashiCorp Certified Terrafor
 [PlDv]: <./fetch-values-variables.tf>
 [PlDw]: <./zipmap.tf>
 [PlDx]: <./tf-comments.tf>
-[PlDy]: <./challenge-count.md>
-[PlDz]: <./for_each.md>
+[PlDy]: <./meta-argument.md>
+[PlDz]: <./create-before-destroy.md>
+[PlEa]: <./prevent-destroy.md>
+[PlEb]: <./ignore-changes.md>
+[PlEc]: <./challenge-count.md>
+[PlEd]: <./for_each.md>
