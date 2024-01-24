@@ -1,6 +1,6 @@
 ## This snippet is from the Local Values video.
 
-### local-values.tf
+#### local-values.tf
 
 ```sh
 provider "aws" {
